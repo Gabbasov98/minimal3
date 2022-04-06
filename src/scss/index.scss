@@ -52,6 +52,7 @@
 
 .popular {
     padding: 100px 0 75px;
+    overflow: hidden;
     &__items {
         margin-top: 30px;
         display: flex;
@@ -141,6 +142,7 @@
 
 .lifestyle {
     padding: 75px 0;
+    overflow: hidden;
     &__top {
         display: flex;
         align-items: center;

@@ -73,4 +73,9 @@ $(document).ready(function() {
     if (window.innerWidth < 992) {
         lifeStyleSlider()
     }
+
+    $(".catalog-item__item-color-round").click(function() {
+        $(".catalog-item__item-color-round").removeClass("catalog-item__item-color-round--active")
+        $(this).addClass("catalog-item__item-color-round--active")
+    })
 });
